@@ -1,0 +1,8 @@
+.env
+.DS_Store
+node_modules
+dist/**/bundle.js
+dist/**/*.bundle.js
+.vscode
+coverage
+dist

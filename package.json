@@ -1,0 +1,35 @@
+{
+  "name": "@abrarturi/semantic-versionify",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hussainTuri/semversionify.git"
+  },
+  "version": "1.0.0",
+  "description": "Try out semantic version and conventional commits ",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "release": "semantic-release",
+    "release-local": "semantic-release --no-ci"
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "private": false,
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "semantic-release": "^24.2.3",
+    "ts-jest": "^29.2.6",
+    "typescript": "^5.8.2"
+  }
+}
