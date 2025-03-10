@@ -5,3 +5,4 @@ console.log('I am a breaking change.');
 console.log('I am a breaking change. Take 2');
 console.log('I am a fix');
 console.log('I am a fix 2');
+console.log('I am a chore');
