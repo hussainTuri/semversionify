@@ -6,3 +6,4 @@ console.log('I am a breaking change. Take 2');
 console.log('I am a fix');
 console.log('I am a fix 2');
 console.log('I am a chore');
+console.log('I am feature 1');
